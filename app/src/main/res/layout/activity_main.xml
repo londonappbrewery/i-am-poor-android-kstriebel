@@ -16,11 +16,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="I am Poor :("
+        android:text="@string/poor_text"
         android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/imageView"
+        android:contentDescription="@string/pic_of_diamond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
