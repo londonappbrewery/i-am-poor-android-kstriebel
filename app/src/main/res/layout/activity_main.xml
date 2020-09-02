@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
@@ -17,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:text="@string/poor_text"
-        android:textSize="30sp" />
+        android:textSize="40sp" />
 
     <ImageView
         android:id="@+id/imageView"
